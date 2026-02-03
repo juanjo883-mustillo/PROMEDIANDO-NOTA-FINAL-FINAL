@@ -1,0 +1,159 @@
+nav{
+  background-color: rgb(115, 255, 0);
+  margin-top: 20px;
+
+}
+main{
+  margin-top: 50Px;
+}
+
+.carousel-item img{
+  width: 100%;
+  height: 600px;
+
+
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: $colortexto;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: blue;
+  color: $colortexto;
+  padding: 1rem 2rem;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+main {
+  background-color: $fondo;
+}
+
+.grid li a {
+  padding: 1rem 1rem;
+  text-decoration: none;
+  color: $colortexto;
+  transition: color 0.3s ease;
+  @include letras;
+}
+
+.grid li a:hover {
+  color: $fondo;
+}
+
+.contacto1 {
+  max-width: 600px;
+  margin: 2rem auto;
+  display: grid;
+  gap: 1rem;
+}
+
+.contacto1 input {
+  padding: 1rem;
+  border: 1px solid $fondo;
+  border-radius: 5px;
+}
+
+.nav-links2 {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+button {
+  margin: 5px;
+  background-color: $colortexto;
+  color: $backgroundmain;
+  font-weight: bold;
+  border: $bordes;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+section h2 {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  counter-reset: $fondo;
+  color: $backgroundmain;
+}
+
+.footer-left a {
+  color: $colortexto;
+  text-decoration: none;
+  padding: 1rem 1rem;
+  @include letras;
+}
+
+
+
+.container p {
+  font-size: 2rem;
+  color: $colortexto;
+  padding: 5px;
+  width: 100%;
+  text-align: justify;
+}
+
+.footer-links:hover {
+  color: $fondo;
+}
+
+.footer-links li a:hover {
+  color: $fondo;
+  transition: color 0.3s ease;
+}
+
+section {
+  max-width: 1200px;
+  padding: 10px;
+  text-align: center;
+}
+
+section h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: map-get($links , padding);
+  color: map-get($links, color);
+}
+
+
+
+article {
+  width: 250px;
+  margin: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-color: $colortexto;
+}
+
+
+
+.titulo {
+  text-align: center;
+  font-size: 30px;
+  padding-top: 50px;
+}
+
+.p {
+  color: $colortexto;
+}
+
+h5{
+  height: 30vh;
+  color: white;
+  box-shadow: 2rem;
+  font-size: 5rem;
+}
+

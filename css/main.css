@@ -1,0 +1,185 @@
+nav {
+  background-color: rgb(115, 255, 0);
+  margin-top: 20px;
+}
+
+main {
+  margin-top: 50Px;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 600px;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: blue;
+  color: white;
+  padding: 1rem 2rem;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+main {
+  background-color: #F28080;
+}
+
+.grid li a {
+  padding: 1rem 1rem;
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s ease;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.grid li a:hover {
+  color: #F28080;
+}
+
+.contacto1 {
+  max-width: 600px;
+  margin: 2rem auto;
+  display: grid;
+  gap: 1rem;
+}
+
+.contacto1 input {
+  padding: 1rem;
+  border: 1px solid #F28080;
+  border-radius: 5px;
+}
+
+.nav-links2 {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+button {
+  margin: 5px;
+  background-color: white;
+  color: #1197e6;
+  font-weight: bold;
+  border: solid 5px BLACK;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+section h2 {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  counter-reset: #F28080;
+  color: #1197e6;
+}
+
+.footer-left a {
+  color: white;
+  text-decoration: none;
+  padding: 1rem 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.container p {
+  font-size: 2rem;
+  color: white;
+  padding: 5px;
+  width: 100%;
+  text-align: justify;
+}
+
+.footer-links:hover {
+  color: #F28080;
+}
+
+.footer-links li a:hover {
+  color: #F28080;
+  transition: color 0.3s ease;
+}
+
+section {
+  max-width: 1200px;
+  padding: 10px;
+  text-align: center;
+}
+
+section h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+article {
+  width: 250px;
+  margin: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-color: white;
+}
+
+.titulo {
+  text-align: center;
+  font-size: 30px;
+  padding-top: 50px;
+}
+
+.p {
+  color: white;
+}
+
+h5 {
+  height: 30vh;
+  color: white;
+  box-shadow: 2rem;
+  font-size: 5rem;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.grid {
+  display: flex;
+  list-style: none;
+}
+
+nav .grid li {
+  padding: 0.5rem 2rem;
+}
+
+.hero {
+  height: 100vh;
+  background: linear-gradient(black, black), url("../assets/alumnos.jpg") center/cover;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+/*# sourceMappingURL=main.css.map */

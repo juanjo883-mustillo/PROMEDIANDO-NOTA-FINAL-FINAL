@@ -1,0 +1,32 @@
+*{
+  padding: 0;
+  margin: 0;
+
+}
+nav{
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+
+}
+
+.grid{
+  display: flex;
+  list-style: none;
+  
+}
+
+nav .grid li{
+  padding: .5rem 2rem;
+}
+
+.hero{
+  height: 100vh;
+  background: linear-gradient(black , black), url('../assets/alumnos.jpg') center/cover;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
